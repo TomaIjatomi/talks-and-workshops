@@ -1,0 +1,26 @@
+# Environment
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+
+# ADK
+.adk/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Video files — host on YouTube instead
+*.mp4
+*.mov
+*.avi
+
+# PowerPoint source — PDF is in slides/
+*.pptx
