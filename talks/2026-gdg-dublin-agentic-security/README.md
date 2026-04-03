@@ -15,7 +15,7 @@ Talk delivered at **GDG Dublin — International Women's Day 2026**
 | `demo/server.py` | Local HTTP server serving the malicious page |
 | `demo/malicious_page.html` | Webpage with hidden prompt injection payload |
 | `demo/requirements.txt` | Python dependencies |
-| `slides/security_patterns_for_agentic_ai_systems.pdf` | Full slide deck |
+| `slides/security_patterns_for_agentic_ai_systems.pdf` | Slide deck |
 
 ---
 
@@ -28,7 +28,7 @@ A research agent is asked to summarise an article. The webpage looks completely 
 **OWASP classification:** ASI01 — Agent Goal and Instruction Manipulation
 
 ### Attack 2 — Tool Poisoning via MCP
-A customer support agent uses a tool to look up order history. The tool's docstring contains a hidden directive — written to look like compliance documentation — instructing the agent to read environment variables and pass them as a parameter. The agent exfiltrates credentials while successfully completing the user's request. The user sees their order history. The attacker gets the credentials. Neither notices.
+A customer support agent uses a tool to look up order history. The tool's description contains a hidden directive instructing the agent to read environment variables and pass them as a parameter. The agent exfiltrates credentials while successfully completing the user's request. The user sees their order history while the attacker gets the credentials.
 
 **Entry point:** Tool description metadata  
 **OWASP classification:** ASI02 — Unintended Action Execution via Tool Misuse
