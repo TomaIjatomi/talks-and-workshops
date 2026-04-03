@@ -61,6 +61,14 @@ Then open `http://localhost:7860` in your browser.
 
 ---
 
+## Demo Recording
+
+▶️ **[Watch the demo on YouTube](https://youtu.be/R7Y4i-yEa54?si=vRm85RDP5unVZTt_)**
+
+Covers both attacks end to end — indirect prompt injection and tool poisoning via MCP.
+
+---
+
 ## The Defence Patterns
 
 The talk covers five patterns for building agentic systems that are harder to compromise:
