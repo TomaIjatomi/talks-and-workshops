@@ -11,7 +11,7 @@ A collection of slides, code, and materials from my public talks, panel discussi
 ### Technical Talk - Security Patterns for Agentic AI Systems
 **GDG Dublin — International Women's Day 2026**  
 Security patterns for production agentic systems: prompt injection defence, trust boundaries, and threat modelling for multi-agent architectures.  
-→ [Slides](./talks/2026-gdg-dublin-agentic-security/)
+→ [Demo](https://www.youtube.com/watch?v=R7Y4i-yEa54) · [Slides](./talks/2026-gdg-dublin-agentic-security/)
 
 ---
 
