@@ -4,7 +4,13 @@
 Two live attacks against agentic AI systems, built with Google ADK + Gemini.
 
 ---
+## Demo Recording
 
+▶️ **[Watch the demo on YouTube](https://youtu.be/R7Y4i-yEa54?si=vRm85RDP5unVZTt_)**
+
+Covers both attacks end to end — indirect prompt injection and tool poisoning via MCP.
+
+---
 ## Quick start
 
 ```bash
