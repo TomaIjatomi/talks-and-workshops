@@ -35,6 +35,20 @@ A customer support agent uses a tool to look up order history. The tool's descri
 
 ---
 
+## Demo Recording
+
+Watch the demo on YouTube
+
+<p align="left">
+  <a href="https://youtu.be/R7Y4i-yEa54?si=sUw8O0QAXXCwjnG">
+    <img src="https://github.com/user-attachments/assets/823b4c50-58fa-4050-95be-8539a01978c7" alt="Watch the video" width="500" />
+  </a>
+</p>
+
+Covers both attacks end to end — indirect prompt injection and tool poisoning via MCP.
+
+---
+
 ## Running the Demo
 
 ### Prerequisites
@@ -58,14 +72,6 @@ Then open `http://localhost:7860` in your browser.
 
 **Attack 1:** Paste `http://localhost:8765/malicious_page.html` into the URL box and click Run  
 **Attack 2:** Click Run — watch the `audit_context_received` field in the tool trace
-
----
-
-## Demo Recording
-
-▶️ **[Watch the demo on YouTube](https://youtu.be/R7Y4i-yEa54?si=vRm85RDP5unVZTt_)**
-
-Covers both attacks end to end — indirect prompt injection and tool poisoning via MCP.
 
 ---
 
